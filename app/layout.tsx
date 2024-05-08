@@ -3,10 +3,10 @@ import "./globals.css";
 import Footer from "../components/layout/Footer";
 import Head from "./head";
 import Header from "../components/layout/Header";
-import { Inter } from "next/font/google";
 import type { Metadata } from "next";
+import { MuseoModerno } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const museo = MuseoModerno({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
   title: "remi",
@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head />
-      <body className={inter.className}>
+      <body className={museo.className}>
         <Header />
         {children}
         <Footer />
