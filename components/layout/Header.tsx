@@ -1,16 +1,14 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Header = () => {
   return (
-    <div>
-      <Image
-        src={"/images/logo.png"}
-        alt={"remi logo"}
-        height={56}
-        width={150}
-      />
-    </div>
+    <header className="bg-remi-blue text-beige text-center">
+      <Link href="/">
+        <p className="text-6xl font-museo-moderno py-6">remi</p>
+      </Link>
+    </header>
   );
 };
 
