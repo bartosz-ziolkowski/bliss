@@ -107,7 +107,7 @@ const Footer = () => {
       </div>
       <div className="relative block pb-16 lg:col-span-2 h-full w-full lg:border-l-2 border-beige font-museo-moderno text-center">
         <p className="text-12xl -mb-3">remi</p>
-        <p className="text-3xl w-full">Making Chefs\' Lives Easier</p>
+        <p className="text-3xl w-full">Making Chefs' Lives Easier</p>
       </div>
     </footer>
   );
