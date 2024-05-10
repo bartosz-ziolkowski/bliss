@@ -1,12 +1,12 @@
 import "./globals.css";
 
 import { Baskervville, MuseoModerno } from "next/font/google";
-import { Toaster } from "react-hot-toast";
+
 import Footer from "../components/layout/Footer";
 import Head from "./head";
 import Header from "../components/layout/Header";
 import type { Metadata } from "next";
-
+import { Toaster } from "react-hot-toast";
 import localFont from "next/font/local";
 
 const depotNew = localFont({
