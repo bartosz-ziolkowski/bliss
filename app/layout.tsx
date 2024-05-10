@@ -7,6 +7,7 @@ import Head from "./head";
 import Header from "../components/layout/Header";
 import type { Metadata } from "next";
 import { Toaster } from "react-hot-toast";
+import type { Viewport } from "next";
 import localFont from "next/font/local";
 
 const depotNew = localFont({
@@ -34,6 +35,13 @@ const baskerVille = Baskervville({
 export const metadata: Metadata = {
   title: "remi - Ease Chefs' Lives",
   description: "Task Management Application",
+};
+
+export const viewport: Viewport = {
+  themeColor: "#000000",
+  initialScale: 1,
+  width: "device-width",
+  maximumScale: 1,
 };
 
 export default function RootLayout({
