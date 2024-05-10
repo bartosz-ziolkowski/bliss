@@ -1,9 +1,9 @@
 "use client";
 
 import React from "react";
-import Link from "next/link";
-import { useForm } from "react-hook-form";
 import sendEmail from "@/utils/sendEmail";
+import { useForm } from "react-hook-form";
+
 const scrollToTop = () => {
   window.scrollTo({
     top: 0,
@@ -24,7 +24,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-remi-blue lg:grid lg:grid-cols-5 text-beige border-t-4 border-green">
-      <div className="relative px-4 py-16 sm:px-6 lg:col-span-3 lg:px-8">
+      <div className="relative px-4 pt-16 lg:pb-16 sm:px-6 lg:col-span-3 lg:px-8">
         <div
           className="absolute bottom-4 right-4 sm:end-6 sm:top-6 lg:end-8 lg:top-8 cursor-pointer"
           onClick={scrollToTop}
@@ -81,33 +81,33 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-12 pt-12">
+        <div className="sm:mt-12 lg:pt-12">
           <div className="sm:flex sm:items-center sm:justify-between">
             <div className="flex">
-              <Link
+              <a
                 href="https://www.linkedin.com/company/thisisremi"
                 target="_blank"
               >
                 <p className="mt-8 text-lg sm:mt-0 me-4 transition hover:text-green">
                   LinkedIn
                 </p>
-              </Link>
-              <Link href="/" target="_blank">
+              </a>
+              <a href="mailto:fabian.chavez@gmx.de" target="_blank">
                 <p className="mt-8 text-lg sm:mt-0 transition hover:text-green">
                   E-mail
                 </p>
-              </Link>
+              </a>
             </div>
             <p className="mt-8 text-lg sm:mt-0">Coming soon...</p>
-            <p className="mt-8text-lg sm:mt-0">
+            <p className="mt-8 text-lg sm:mt-0">
               &copy; 2024. Remi. All rights reserved.
             </p>
           </div>
         </div>
       </div>
-      <div className="relative block h-32 lg:col-span-2 lg:h-full border-l-2 border-beige font-museo-moderno text-center">
+      <div className="relative block pb-16 lg:col-span-2 h-full w-full lg:border-l-2 border-beige font-museo-moderno text-center">
         <p className="text-12xl -mb-3">remi</p>
-        <p className="text-3xl">Making Chefs' Lives Easier</p>
+        <p className="text-3xl w-full">Making Chefs' Lives Easier</p>
       </div>
     </footer>
   );

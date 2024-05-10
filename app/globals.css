@@ -3,7 +3,14 @@
 @tailwind utilities;
 
 :root {
-  color: white;
   background: #0000b0;
   font-family: var(--font-depot-new);
+}
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }

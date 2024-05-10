@@ -10,7 +10,6 @@ const config: Config = {
     extend: {
       colors: {
         "remi-blue": "#0000b0",
-        orange: "black",
         beige: "#F4F0E6",
         green: "#00A878",
       },
@@ -25,7 +24,7 @@ const config: Config = {
         "basker-ville": "var(--font-basker-ville)",
       },
       backgroundSize: {
-        "400": "400%",
+        "gradient-400": "400%",
       },
       animation: {
         "text-slide-3":
