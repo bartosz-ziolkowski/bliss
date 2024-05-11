@@ -7,6 +7,12 @@
   font-family: var(--font-depot-new);
 }
 
+@media (max-width: 767px) {
+  :root {
+    width: 104%;
+  }
+}
+
 *,
 *:after,
 *:before {

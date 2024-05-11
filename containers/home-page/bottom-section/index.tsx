@@ -54,7 +54,7 @@ const Bottom = () => {
       <div className="mx-auto px-4 py-12 lg:me-0 lg:pe-0 xl:py-24">
         <div className="flex-col items-center justify-between sm:flex sm:pe-6 lg:pe-8">
           <h2 className="text-3xl font-bold font-basker-ville tracking-tight lg:text-4xl text-center">
-           Backed by Like-minded People from the Industry
+            Backed by Like-minded People from the Industry
           </h2>
           <div className="-mx-6 mt-8 lg:col-span-2 lg:mx-0">
             <div ref={ref} className="keen-slider">
