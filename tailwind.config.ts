@@ -9,9 +9,11 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        "remi-blue": "#0000b0",
-        beige: "#F4F0E6",
-        green: "#00A878",
+        "bliss-blue": "#34D1BF",
+        beige: "#f4f0e6",
+        black: "#070707",
+        green: "#3454D1",
+        orange: "#F75C03",
       },
       lineHeight: {
         tight: "1.28",

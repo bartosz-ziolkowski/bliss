@@ -16,7 +16,7 @@ export async function POST(request: NextRequest) {
   const mailOptions: Mail.Options = {
     from: process.env.MY_EMAIL,
     to: process.env.MY_EMAIL,
-    subject: "[Remi] New Follower on Invite List",
+    subject: "[Bliss] New Follower on Invite List",
     text: `${email}'s just joined invite list!`,
   };
 

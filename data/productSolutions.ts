@@ -1,21 +1,21 @@
 const productSolutions = [
   {
-    name: "Simplified Task Management and Efficient Communication",
+    name: "Seamless Transaction Monitoring",
     description:
-      "Improved communication that ensures that all team members are on the same page and reduces the risk of misunderstandings",
-    imageUrl: "/images/board.png",
+      "Stay informed about all transactions in real-time, ensuring full control and security over your finances.",
+    imageUrl: "/images/transaction.png",
   },
   {
-    name: "Cost and Time Savings",
+    name: "Personalized Financial Insights",
     description:
-      "Efficient task management minimizes time wastage and accurate ingredient documentation optimizes orders",
-    imageUrl: "/images/wastage.png",
+      "Get personalized tips and advice tailored to your spending habits, empowering smarter financial choices.",
+    imageUrl: "/images/insights.png",
   },
   {
-    name: "Enhanced Team Collaboration and Reduced Stress Levels",
+    name: "Efficient Goal Tracking",
     description:
-      "Centralized platform for knowledge sharing and organization fosters teamwork and reduces stress levels",
-    imageUrl: "/images/argument.png",
+      "Set and track your financial goals seamlessly, with ongoing support to ensure success and development.",
+    imageUrl: "/images/goal.png",
   },
 ];
 

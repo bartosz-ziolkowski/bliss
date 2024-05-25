@@ -4,7 +4,7 @@ import React from "react";
 const ProductSolution = ({
   name,
   description,
-  imageUrl
+  imageUrl,
 }: {
   name: string;
   description: string;
@@ -16,6 +16,7 @@ const ProductSolution = ({
         <Image
           src={imageUrl}
           alt="solution image"
+          className="rounded"
           priority
           width={150}
           height={150}

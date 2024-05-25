@@ -33,8 +33,8 @@ const baskerVille = Baskervville({
 });
 
 export const metadata: Metadata = {
-  title: "remi - Ease Chefs' Lives",
-  description: "Task Management Application",
+  title: "bliss - redefined banking",
+  description: "Banking Application",
 };
 
 export const viewport: Viewport = {
