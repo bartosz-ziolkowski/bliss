@@ -1,4 +1,4 @@
-# Bliss
+# Bliss - landing page for banking app
 
 ## Overview
 I took on this project independently in response to a request from an early-stage startup at DTU seeking participation in DTU Startup Day. The website aims to highlight the startup's core values and directions. While the startup is working on their official website, they chose not to disclose the initial version that I created here. As a result, the page's structure stayed the same, but I adjusted the color scheme, name, and all content to represent a fictitious startup. 
